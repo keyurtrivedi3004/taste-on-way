@@ -12,7 +12,7 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-sm navbar-light NavHead NavbackWhite">
         <div className="container">
           <a href="#" className="navbar-brand BrandLogo">
-            <img src={image} className="ImgWidthFix img-fluid" />
+            <img src={image} className="ImgWidthFix img-fluid" alt="home-image" />
           </a>
           <ul className="navbar-nav DisplayHideResp">
             <li className="nav-item">
@@ -53,7 +53,7 @@ const Navigation = () => {
                           className="btn btn-primary PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={google} className="PopupBtnWidth" />{" "}
+                          <img src={google} className="PopupBtnWidth" alt="google" />{" "}
                           Continue with google
                         </button>
                       </div>
@@ -63,7 +63,7 @@ const Navigation = () => {
                           className="btn BtnFacebook PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={facebook} className="PopupBtnWidth" />{" "}
+                          <img src={facebook} className="PopupBtnWidth" alt="facebook" />{" "}
                           Continue with facebook
                         </button>
                       </div>
@@ -73,7 +73,7 @@ const Navigation = () => {
                           className="btn BtnApple PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={apple} className="PopupBtnWidth" /> Continue
+                          <img src={apple} className="PopupBtnWidth" alt="apple" /> Continue
                           with Apple
                         </button>
                       </div>
@@ -159,7 +159,7 @@ const Navigation = () => {
                           className="btn btn-primary PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={google} className="PopupBtnWidth" />{" "}
+                          <img src={google} className="PopupBtnWidth" alt="google" />{" "}
                           Continue with google
                         </button>
                       </div>
@@ -169,7 +169,7 @@ const Navigation = () => {
                           className="btn BtnFacebook PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={facebook} className="PopupBtnWidth" />{" "}
+                          <img src={facebook} className="PopupBtnWidth" alt="facebook" />{" "}
                           Continue with facebook
                         </button>
                       </div>
@@ -179,7 +179,7 @@ const Navigation = () => {
                           className="btn BtnApple PopupBtnLogin"
                           data-dismiss="modal"
                         >
-                          <img src={apple} className="PopupBtnWidth" /> Continue
+                          <img src={apple} className="PopupBtnWidth" alt="apple" /> Continue
                           with Apple
                         </button>
                       </div>
