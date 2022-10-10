@@ -1,7 +1,9 @@
 import "./App.css";
-import HomeWidget1 from "./Components/Navbar/HomeWidgets/HomeWidget1";
-import Banner from "./Components/Navbar/Landing-page/Banner";
 import Navigation from "./Components/Navbar/Navigation";
+import Banner from "./Components/Landing-page/Banner";
+import HomeWidget1 from "./Components/HomeWidgets/HomeWidget1";
+import HomeWidget2 from "./Components/HomeWidgets/HomeWidget2";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navigation />
       <Banner />
       <HomeWidget1 />
+      <HomeWidget2 />
+      <Footer />
     </div>
   );
 }

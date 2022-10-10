@@ -1,9 +1,9 @@
 import React from "react";
-import "../../../style.css";
-import "../../../media.css";
-import dasher from "../../../Assets/Images/become a dasher.png";
-import partner from "../../../Assets/Images/become a partner.png";
-import app from "../../../Assets/Images/try an app.png";
+import "../../Assets/style.css";
+import "../../Assets/media.css";
+import dasher from "../../Assets/Images/become a dasher.png";
+import partner from "../../Assets/Images/become a partner.png";
+import app from "../../Assets/Images/try an app.png";
 
 const HomeWidget1 = () => {
   return (

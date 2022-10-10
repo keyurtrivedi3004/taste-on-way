@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../src/style.css";
-import "../../../src/media.css";
+import "../../Assets/style.css";
+import "../../Assets/media.css";
 import image from "../../Assets/Images/Tastes_on_way.png";
 import google from "../../Assets/Images/google.png";
 import facebook from "../../Assets/Images/facebook.png";

@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../style.css";
-import "../../../media.css";
+import "../../Assets/style.css";
+import "../../Assets/media.css";
 
 const Banner = () => {
   return (

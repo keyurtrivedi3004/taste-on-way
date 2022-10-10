@@ -8,7 +8,7 @@ body {
 }
 
 .LandingPageBg {
-  background: url("../src/Assets/Images/background.jpg");
+  background: url("../Assets/Images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 910px;
